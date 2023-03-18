@@ -10,7 +10,7 @@ const port_number = process.env.PORT || 5000;
 
 app.get('/getvalue', (req, res) => {
   const client = new Client({
-    connectionString: 'postgres://pasbivpbrzrvtt:3ca4c3f0167b8137b7bf38383ee29075f8df3b5c7e87a6cfc1859391d7ff89bd@ec2-34-194-73-236.compute-1.amazonaws.com:5432/dh6jb4b8j0cp6',
+    connectionString: 'postgres://cyjarvvduwngrv:5741b3fdb3f8b805dd919e050a47b5292a5ce498da1a757e9f11dabaa7dfb5d4@ec2-52-71-69-66.compute-1.amazonaws.com:5432/d9l7lvmkdps1vc',
     ssl: {
       rejectUnauthorized: false
     }
